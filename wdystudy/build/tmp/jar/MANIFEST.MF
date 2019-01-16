@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: wdystudy
+Automatic-Module-Name: wdystudy
+Implementation-Version: 5.2.0.BUILD-SNAPSHOT
+Created-By: 1.8.0_131 (Oracle Corporation)
+

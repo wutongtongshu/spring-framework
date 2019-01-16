@@ -1,6 +1,9 @@
 buildscript {
 	repositories {
+		mavenLocal()
+		maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
 		maven { url "https://repo.spring.io/plugins-release" }
+		
 	}
 	dependencies {
 		classpath("io.spring.gradle:propdeps-plugin:0.0.9.RELEASE")
@@ -149,6 +152,7 @@ configure(allprojects) { project ->
 
 	repositories {
 		mavenLocal()
+		maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
 		maven { url "https://repo.spring.io/libs-release" }
 	}
 
